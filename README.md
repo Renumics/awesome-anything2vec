@@ -38,6 +38,9 @@ Do you think something is missing? Please help contribute to this list by contac
 # Time series
 
 # Audio (high-frequency time series)
+| Name | Description | Popularity | Effort | Training required | Resources |
+| ---- | ----------- | ---------- | ------ | ----------------- | --------- |
+| [OpenL3](https://github.com/marl/openl3) | OpenL3 is an open-source Python library for computing deep audio and image embeddings. | [![PyPI download month](https://img.shields.io/pypi/dm/openl3.svg)](https://pypi.python.org/pypi/openl3/) [![GitHub stars](https://img.shields.io/github/stars/marl/openl3.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/marl/openl3/stargazers/) | S | no | [Github](https://github.com/marl/openl3) [Docs](https://openl3.readthedocs.io/en/latest/?badge=latest) | 
 
 # Geometry
 
