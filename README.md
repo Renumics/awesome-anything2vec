@@ -47,9 +47,6 @@ Do you think something is missing? Please help contribute to this list by contac
 
 # Geometry
 
-# Language (NLP)
-
-# Graphs
 
 # Multimodal
 
