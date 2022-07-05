@@ -37,6 +37,10 @@ Do you think something is missing? Please help contribute to this list by contac
 
 
 # Video 
+| Name | Description | Popularity | Effort | Training required | Resources |
+| ---- | ----------- | ---------- | ------ | ----------------- | --------- |
+| [OpenL3](https://github.com/marl/openl3) | OpenL3 is an open-source Python library for computing deep audio and image embeddings. | [![PyPI download month](https://img.shields.io/pypi/dm/openl3.svg)](https://pypi.python.org/pypi/openl3/) [![GitHub stars](https://img.shields.io/github/stars/marl/openl3.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/marl/openl3/stargazers/) | S | no | [[Github]](https://github.com/marl/openl3) [[Docs]](https://openl3.readthedocs.io/en/latest/?badge=latest) [[Example]](https://openl3.readthedocs.io/en/latest/tutorial.html#processing-video-files) |
+[towhee](https://docs.towhee.io/) | Towhee is a framework that provides ETL for unstructured data using SoTA machine learning models. | [![PyPI download month](https://img.shields.io/pypi/dm/towhee.svg)](https://pypi.python.org/pypi/towhee/) [![GitHub stars](https://img.shields.io/github/stars/towhee-io/towhee.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/towhee-io/towhee/stargazers/) | S | no | [[Github]](https://github.com/towhee-io/towhee) [[Docs]](https://docs.towhee.io/) [[Example]](https://github.com/towhee-io/examples/tree/3a2207d67b10a246fd6a1654adf173d9902c3cf8/video/reverse_video_search) |
 
 # Time series
 
