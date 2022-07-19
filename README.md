@@ -53,6 +53,7 @@ Do you think something is missing? Please help contribute to this list by contac
   | [Vector Hub](https://github.com/RelevanceAI/vectorhub) | Vector Hub is a library for publication, discovery, and consumption of State-of-the-art models to turn data into vectors. | [![PyPI download month](https://img.shields.io/pypi/dm/vectorhub.svg)](https://pypi.python.org/pypi/vectorhub/) [![GitHub stars](https://img.shields.io/github/stars/RelevanceAI/vectorhub.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/RelevanceAI/vectorhub/stargazers/) | S | no | [[Github]](https://github.com/RelevanceAI/vectorhub) [[Quickstart]](https://github.com/RelevanceAI/vectorhub/blob/main/examples/Quickstart.ipynb) |
 
 # Geometry
+> :warning: The methods listed in this section are mostly based on "research code". To our knowledge there are few to none regularly maintained representation learning libraries for 3D data. Feel free to contribute to improve this section. 
 
 
 # Multimodal
