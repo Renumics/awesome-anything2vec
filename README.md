@@ -16,7 +16,7 @@ We include links to pre-trained foundation models and models you can train on yo
 For each model, we provide the following additional information:
 
 - How popular the model or library is.
-- How coding effort is required to use the model (in T-shirt sizes): S: < 5 lines, M< 20 lines, L< 100 lines, XL > 100 lines.
+- How coding effort is required to use the model (in T-shirt sizes): S: < 5 lines, M: <50 lines, L: >50 lines.
 - Wether the application of the model requires additional training on your own data.
 - Resources such as hands-on examples, the corresponding paper, or a compact explanation of the method.
 
@@ -55,6 +55,11 @@ Do you think something is missing? Please help contribute to this list by contac
 # Geometry
 > :warning: The methods listed in this section are mostly based on "research code". To our knowledge there are few to none regularly maintained representation learning libraries for 3D data. Feel free to contribute to improve this section. 
 
+| Name | Description | Popularity | Effort | Training required | Resources |
+| ---- | ----------- | ---------- | ------ | ----------------- | --------- |
+| [PointGLR](https://github.com/raoyongming/PointGLR) | Code accompanying the paper "Global-Local Bidirectional Reasoning for Unsupervised Representation Learning of 3D Point Clouds". | [![GitHub stars](https://img.shields.io/github/stars/raoyongming/PointGLR.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/raoyongming/PointGLR/stargazers/) | L | yes | [[Github]](https://github.com/raoyongming/PointGLR) [[Paper]](https://arxiv.org/pdf/2003.12971.pdf) |
+| [LDIF](https://github.com/google/ldif) | Code accompanying the paper "Local Deep Implicit Functions for 3D Shape". | [![GitHub stars](https://img.shields.io/github/stars/google/ldif.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/google/ldif/stargazers/) | L | yes | [[Github]](https://github.com/google/ldif) [[Paper]](https://arxiv.org/pdf/1912.06126.pdf) |
+| [Occupancy Networks](https://github.com/autonomousvision/occupancy_networks) | Code accompanying the paper "Occupancy Networks: Learning 3D Reconstruction in Function Space". | [![GitHub stars](https://img.shields.io/github/stars/autonomousvision/occupancy_networks.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/autonomousvision/occupancy_networks/stargazers/) | L | yes | [[Github]](https://github.com/autonomousvision/occupancy_networks) [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Mescheder_Occupancy_Networks_Learning_3D_Reconstruction_in_Function_Space_CVPR_2019_paper.pdf) |
 
 # Multimodal
 
