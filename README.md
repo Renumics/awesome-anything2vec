@@ -44,6 +44,13 @@ Do you think something is missing? Please help contribute to this list by contac
 [towhee](https://docs.towhee.io/) | Towhee is a framework that provides ETL for unstructured data using SoTA machine learning models. | [![PyPI download month](https://img.shields.io/pypi/dm/towhee.svg)](https://pypi.python.org/pypi/towhee/) [![GitHub stars](https://img.shields.io/github/stars/towhee-io/towhee.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/towhee-io/towhee/stargazers/) | S | no | [[Github]](https://github.com/towhee-io/towhee) [[Docs]](https://docs.towhee.io/) [[Example]](https://github.com/towhee-io/examples/tree/3a2207d67b10a246fd6a1654adf173d9902c3cf8/video/reverse_video_search) |
 
 # Time series
+> :warning: Currently mostly contains libraries for extracting hand engineered features. Feel free to add machine learning-based methods by contributing.
+
+| Name | Description | Popularity | Effort | Training required | Resources |
+| ---- | ----------- | ---------- | ------ | ----------------- | --------- |
+| [tsfresh](https://github.com/blue-yonder/tsfresh) | Automatic extraction of relevant features from time series | [![PyPI download month](https://img.shields.io/pypi/dm/tsfresh.svg)](https://pypi.python.org/pypi/tsfresh/) [![GitHub stars](https://img.shields.io/github/stars/blue-yonder/tsfresh.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/blue-yonder/tsfresh/stargazers/) | M | no | [[Github]](https://github.com/blue-yonder/tsfresh) [[Docs]](https://tsfresh.readthedocs.io/en/latest/) |
+| [pycatch22](https://github.com/DynamicsAndNeuralSystems/pycatch22) | 22 time-series features suitable for many classification problems. | [![PyPI download month](https://img.shields.io/pypi/dm/pycatch22.svg)](https://pypi.python.org/pypi/pycatch22/) [![GitHub stars](https://img.shields.io/github/stars/DynamicsAndNeuralSystems/pycatch22.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/DynamicsAndNeuralSystems/pycatch22/stargazers/) | M | no | [[Github]](https://github.com/DynamicsAndNeuralSystems/pycatch22) [[Paper]](https://arxiv.org/pdf/1901.10200.pdf) |
+| [pyts](https://github.com/johannfaouzi/pyts) | Library dedicated to time series classification including many common ts transformations. | [![PyPI download month](https://img.shields.io/pypi/dm/pyts.svg)](https://pypi.python.org/pypi/pyts/) [![GitHub stars](https://img.shields.io/github/stars/johannfaouzi/pyts.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/johannfaouzi/pyts/stargazers/) | M | no | [[Github]](https://github.com/johannfaouzi/pyts) [[Docs]](https://pyts.readthedocs.io/en/stable/) |
 
 # Audio (high-frequency time series)
 | Name | Description | Popularity | Effort | Training required | Resources |
@@ -62,6 +69,8 @@ Do you think something is missing? Please help contribute to this list by contac
 | [Occupancy Networks](https://github.com/autonomousvision/occupancy_networks) | Code accompanying the paper "Occupancy Networks: Learning 3D Reconstruction in Function Space". | [![GitHub stars](https://img.shields.io/github/stars/autonomousvision/occupancy_networks.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/autonomousvision/occupancy_networks/stargazers/) | L | yes | [[Github]](https://github.com/autonomousvision/occupancy_networks) [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Mescheder_Occupancy_Networks_Learning_3D_Reconstruction_in_Function_Space_CVPR_2019_paper.pdf) |
 
 # Multimodal
+> :warning: This section currently only contains models dealing with images and text. Feel free to extend this to further modalities.
 
-
-
+| Name | Description | Popularity | Effort | Training required | Resources |
+| ---- | ----------- | ---------- | ------ | ----------------- | --------- |
+| [CLIP](https://huggingface.co/openai/clip-vit-base-patch32) | Model is based on ViT and was trained on images and image captions in a self-supervised way. | downloads: 700k/month | M | can | [[Docs]](https://huggingface.co/openai/clip-vit-base-patch32) [[Github]](https://github.com/openai/CLIP) [[Paper]](https://arxiv.org/pdf/2103.00020.pdf) |
