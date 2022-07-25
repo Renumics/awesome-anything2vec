@@ -1,15 +1,15 @@
-# Awesome data2vec
+# Awesome anything2vec
 
-Representation learning for Industrial AI
+Representation learning for industrial AI: Curated collection of libraries that turn sensor data into vectors.
 
-## :factory: What is Industrial AI?
-Data-driven methods that improve product development and manufacturing are often referred to as Industrial AI. This umbrella unites many applications such as quality control, condition monitoring, predictive maintenance, process optimization, robotics, generative design, and requirement analysis. Typical tasks within these applications are outlier/anomaly detection, event detection, performance forecasting, or root cause analysis.
+## :factory: What is industrial AI?
+Data-driven methods that improve product development and manufacturing are often referred to as industrial AI. This umbrella unites many applications such as quality control, condition monitoring, predictive maintenance, process optimization, robotics, generative design, and requirement analysis. Typical tasks within these applications are outlier/anomaly detection, event detection, performance forecasting, or root cause analysis.
 
 ##  :compass: Why representation learning?
 Representation learning allows to convert raw, unstructured data into expressive vectorial representations. These techniques are also called x2vec, data2vec, or anything2vec. They can be helpful for tasks such as data exploration, anomaly detection, or root cause analysis. Additionally, they enable the construction of data-efficient models using vector representations as a feature. 
 
 ## :dart: Goal of this repository
-This list aims to provide a hands-on overview of data2vec methods. Our focus here is to provide a list of techniques that are easy to use and work great in practice. Additionally, they all apply to Industrial AI data and use cases.
+This list aims to provide a hands-on overview of anything2vec methods. Our focus here is to provide a list of techniques that are easy to use and work great in practice. Additionally, they all apply to Industrial AI data and use cases.
 
 We include links to pre-trained foundation models and models you can train on your own datasets using self-supervision.
 
@@ -17,7 +17,7 @@ For each model, we provide the following additional information:
 
 - How popular the model or library is.
 - How coding effort is required to use the model (in T-shirt sizes): S: < 5 lines, M: <50 lines, L: >50 lines.
-- Wether the application of the model requires additional training on your own data.
+- Wether the application of the model requires and/or allows additional training on your own data.
 - Resources such as hands-on examples, the corresponding paper, or a compact explanation of the method.
 
 
@@ -52,7 +52,7 @@ Do you think something is missing? Please help contribute to this list by contac
 | [pycatch22](https://github.com/DynamicsAndNeuralSystems/pycatch22) | 22 time-series features suitable for many classification problems. | [![PyPI download month](https://img.shields.io/pypi/dm/pycatch22.svg)](https://pypi.python.org/pypi/pycatch22/) [![GitHub stars](https://img.shields.io/github/stars/DynamicsAndNeuralSystems/pycatch22.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/DynamicsAndNeuralSystems/pycatch22/stargazers/) | M | no | [[Github]](https://github.com/DynamicsAndNeuralSystems/pycatch22) [[Paper]](https://arxiv.org/pdf/1901.10200.pdf) |
 | [pyts](https://github.com/johannfaouzi/pyts) | Library dedicated to time series classification including many common ts transformations. | [![PyPI download month](https://img.shields.io/pypi/dm/pyts.svg)](https://pypi.python.org/pypi/pyts/) [![GitHub stars](https://img.shields.io/github/stars/johannfaouzi/pyts.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/johannfaouzi/pyts/stargazers/) | M | no | [[Github]](https://github.com/johannfaouzi/pyts) [[Docs]](https://pyts.readthedocs.io/en/stable/) |
 
-# Audio (high-frequency time series)
+# Audio
 | Name | Description | Popularity | Effort | Training required | Resources |
 | ---- | ----------- | ---------- | ------ | ----------------- | --------- |
 | [OpenL3](https://github.com/marl/openl3) | OpenL3 is an open-source Python library for computing deep audio and image embeddings. | [![PyPI download month](https://img.shields.io/pypi/dm/openl3.svg)](https://pypi.python.org/pypi/openl3/) [![GitHub stars](https://img.shields.io/github/stars/marl/openl3.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/marl/openl3/stargazers/) | S | no | [[Github]](https://github.com/marl/openl3) [[Docs]](https://openl3.readthedocs.io/en/latest/?badge=latest) [[Example]](https://openl3.readthedocs.io/en/latest/tutorial.html#extracting-audio-embeddings) |
